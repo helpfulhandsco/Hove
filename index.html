@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaners Hove | Professional Domestic & Office Cleaning | Helpful Hands</title>
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <meta name="description"
+        content="Professional Cleaners Hove & Brighton - Helpful Hands offers domestic cleaning, office cleaning services. Trusted since 2004. Call 01273 326661">
+    <meta name="keywords"
+        content="Cleaners Hove, Cleaners Brighton, Domestic Cleaning Hove, Office Cleaning Hove, Domestic Cleaning Brighton, Professional Cleaning Services">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://helpfulhands.uk.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cleaners Hove | Professional Cleaning Services | Helpful Hands">
+    <meta property="og:description"
+        content="Professional Cleaners Hove & Brighton - Expert domestic and office cleaning since 2004.">
+    <meta property="og:url" content="https://helpfulhands.uk.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_GB">
+
+    <style>
+        :root {
+            --primary: #2C5F2D;
+            --primary-dark: #1e4420;
+            --secondary: #97BC62;
+            --accent: #FFB800;
+            --bg-cream: #FFF8F0;
+            --bg-white: #ffffff;
+            --text-dark: #1a1a1a;
+            --text-light: #ffffff;
+            --text-muted: #666666;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.15);
+            --radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-cream);
+            color: var(--text-dark);
+            line-height: 1.7;
+            font-size: 1.1rem;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Outfit', -apple-system, sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3.5rem);
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            color: var(--accent);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Header */
+        header {
+            background: var(--bg-white);
+            box-shadow: var(--shadow);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 0.75rem 0;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .logo svg {
+            width: 28px;
+            height: 28px;
+        }
+
+        .brand-name {
+            font-family: Georgia, serif;
+            font-size: 1.4rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        /* Desktop Navigation */
+        .desktop-nav {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-weight: 600;
+            color: var(--text-dark);
+            padding: 0.5rem 0;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .header-contact {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .header-contact a {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.95rem;
+        }
+
+        .header-cta {
+            background: var(--accent);
+            color: var(--text-dark) !important;
+            padding: 0.6rem 1.2rem;
+            border-radius: 50px;
+            font-weight: 700;
+        }
+
+        .header-cta:hover {
+            background: #e5a600;
+            transform: scale(1.02);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.6rem 1rem;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .mobile-nav {
+            display: none;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 50%, #1a3a1b 100%);
+            color: var(--text-light);
+            padding: 9rem 0 5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(151, 188, 98, 0.15) 0%, transparent 50%);
+            animation: heroGlow 15s ease-in-out infinite;
+        }
+
+        @keyframes heroGlow {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            50% {
+                transform: translate(10%, 10%) scale(1.1);
+            }
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 2vw, 1.3rem);
+            opacity: 0.95;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent) 0%, #e5a600 100%);
+            color: var(--text-dark);
+            box-shadow: 0 4px 15px rgba(255, 184, 0, 0.4);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #ffe066 0%, var(--accent) 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 184, 0, 0.5);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            color: var(--text-light);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: var(--text-light);
+            color: var(--primary);
+            border-color: var(--text-light);
+        }
+
+        .hero-image {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+            object-fit: cover;
+        }
+
+        /* Hero Carousel */
+        .hero-carousel {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .carousel-slides {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1/1;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transform: scale(1.05);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .carousel-slide.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .carousel-dots {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: 1.25rem;
+        }
+
+        .carousel-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .carousel-dot:hover {
+            background: rgba(255, 255, 255, 0.7);
+        }
+
+        .carousel-dot.active {
+            background: var(--accent);
+            transform: scale(1.2);
+        }
+
+        .hero-illustration {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+            filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+        }
+
+        .hero-badges {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 0.6rem 1rem;
+            border-radius: 50px;
+            font-size: 0.95rem;
+        }
+
+        /* Sections */
+        section {
+            padding: 5rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary);
+        }
+
+        .section-title span {
+            color: var(--accent);
+        }
+
+        /* Services */
+        .services {
+            background: var(--bg-white);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: linear-gradient(145deg, #ffffff 0%, var(--bg-cream) 100%);
+            border-radius: 16px;
+            padding: 0;
+            transition: var(--transition);
+            border: 1px solid rgba(44, 95, 45, 0.08);
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(44, 95, 45, 0.15);
+        }
+
+        .service-image {
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .service-card:hover .service-image img {
+            transform: scale(1.08);
+        }
+
+        .service-image::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: linear-gradient(to top, rgba(255, 248, 240, 1) 0%, transparent 100%);
+        }
+
+        .service-card h3 {
+            margin-bottom: 1rem;
+            padding: 1.5rem 1.5rem 0;
+        }
+
+        .service-card h3 a {
+            color: var(--primary);
+        }
+
+        .service-card h3 a:hover {
+            color: var(--accent);
+        }
+
+        .service-card p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            padding: 0 1.5rem;
+        }
+
+        .service-features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+            padding: 0 1.5rem;
+        }
+
+        .service-features li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-muted);
+        }
+
+        .service-features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        .service-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary);
+            margin: 0 1.5rem 1.5rem;
+            padding: 0.75rem 1.25rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+
+        .service-link:hover {
+            background: linear-gradient(135deg, var(--accent) 0%, #e5a600 100%);
+            color: var(--text-dark);
+            gap: 0.75rem;
+        }
+
+        /* About */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-content p {
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+        }
+
+        .about-content a {
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--text-light);
+            padding: 2rem;
+            border-radius: var(--radius);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            font-family: Georgia, serif;
+        }
+
+        .stat-label {
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+
+        /* Areas */
+        .areas {
+            background: var(--bg-white);
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .area-card {
+            background: linear-gradient(135deg, var(--secondary), var(--primary));
+            color: var(--text-light);
+            padding: 2.5rem;
+            border-radius: var(--radius);
+            text-align: center;
+        }
+
+        .area-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .area-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        .area-card h3 a {
+            color: var(--text-light);
+            text-decoration: underline;
+        }
+
+        .area-card a {
+            color: var(--text-light);
+            text-decoration: underline;
+        }
+
+        /* Contact */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+            background: var(--primary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .contact-item h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-item p,
+        .contact-item a {
+            color: var(--text-muted);
+        }
+
+        .map-container {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            height: 400px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: var(--text-light);
+            padding: 3rem 0 1.5rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-family: Georgia, serif;
+        }
+
+        .footer-section a {
+            display: block;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 0.3rem 0;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            opacity: 0.8;
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--primary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+            box-shadow: var(--shadow);
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Mobile */
+        @media (max-width: 992px) {
+            .desktop-nav {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-image {
+                order: -1;
+            }
+
+            .hero-illustration {
+                max-width: 300px;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-badges {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 7rem 0 3rem;
+            }
+
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .mobile-nav {
+                position: fixed;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background: var(--bg-white);
+                padding: 1.5rem;
+                box-shadow: var(--shadow);
+                display: none;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .mobile-nav.active {
+                display: flex;
+            }
+
+            .mobile-nav a {
+                padding: 0.75rem;
+                font-weight: 600;
+                border-bottom: 1px solid #eee;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-inner">
+            <div class="logo-section">
+                <div class="logo">
+                    <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                    </svg>
+                </div>
+                <a href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                    class="brand-name">Helpful Hands</a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#areas">Areas</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="header-contact">
+                    <a href="tel:+441273326661" class="header-cta">📞 01273 326661</a>
+                </div>
+            </nav>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰ Menu</button>
+        </div>
+        <nav class="mobile-nav" id="mobileNav">
+            <a href="tel:+441273326661">📞 Call: 01273 326661</a>
+            <a href="mailto:info@helpfulhands.uk.com">✉️ Email Us</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#areas">Areas</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1>Professional <a href="https://www.google.com/maps?cid=4750853928277373565"
+                            style="color:var(--accent);text-decoration:underline;">Cleaners Hove</a> & Brighton</h1>
+                    <p class="hero-subtitle">Expert <a
+                            href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                            style="color:#fff;text-decoration:underline;">Domestic Cleaning Brighton</a> & <a
+                            href="https://helpfulhands.uk.com/office/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                            style="color:#fff;text-decoration:underline;">Office Cleaning</a> Services You Can Trust.
+                        Serving Hove and Brighton Since 2004.</p>
+                    <div class="hero-buttons">
+                        <a href="tel:+441273326661" class="btn btn-primary">📞 Call Now: 01273 326661</a>
+                        <a href="#contact" class="btn btn-secondary">Get a Free Quote</a>
+                    </div>
+                    <div class="hero-badges">
+                        <div class="hero-badge">✓ 20+ Years Experience</div>
+                        <div class="hero-badge">✓ Trusted & Vetted Staff</div>
+                        <div class="hero-badge">✓ 100% Satisfaction</div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Hero Image Carousel -->
+                    <div class="hero-carousel" id="heroCarousel">
+                        <div class="carousel-slides">
+                            <img src="hero-image.png" alt="Professional Cleaners Hove - Helpful Hands cleaning services"
+                                class="carousel-slide active" loading="eager">
+                            <img src="domestic-cleaning.png"
+                                alt="Domestic Cleaning Brighton - Spotless homes by Helpful Hands"
+                                class="carousel-slide" loading="eager">
+                            <img src="office-cleaning.png" alt="Office Cleaning Hove - Professional workspace cleaning"
+                                class="carousel-slide" loading="eager">
+                        </div>
+                        <div class="carousel-dots">
+                            <span class="carousel-dot active" onclick="goToSlide(0)"></span>
+                            <span class="carousel-dot" onclick="goToSlide(1)"></span>
+                            <span class="carousel-dot" onclick="goToSlide(2)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Premium <span>Cleaning Services</span></h2>
+            <div class="services-grid fade-in">
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="domestic-cleaning.png"
+                            alt="Domestic Cleaning Hove - Spotless living room by Helpful Hands" loading="lazy">
+                    </div>
+                    <h3><a
+                            href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Domestic
+                            Cleaning Hove</a></h3>
+                    <p>Transform your home into a spotless sanctuary with our professional <a
+                            href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Domestic
+                            Cleaning Brighton</a> and Hove services.</p>
+                    <ul class="service-features">
+                        <li>Regular scheduled cleaning</li>
+                        <li>Deep cleaning services</li>
+                        <li>Kitchen & bathroom sanitization</li>
+                        <li>Bedroom & living area care</li>
+                        <li>Eco-friendly products available</li>
+                    </ul>
+                    <a href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                        class="service-link">Domestic Cleaning Hove →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="office-cleaning.png"
+                            alt="Office Cleaning Hove - Professional workspace cleaning by Helpful Hands"
+                            loading="lazy">
+                    </div>
+                    <h3><a
+                            href="https://helpfulhands.uk.com/office/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Office
+                            Cleaning Hove</a></h3>
+                    <p>Keep your workplace pristine and professional with our comprehensive <a
+                            href="https://helpfulhands.uk.com/office/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Office
+                            Cleaning Hove</a> solutions.</p>
+                    <ul class="service-features">
+                        <li>Daily, weekly & monthly plans</li>
+                        <li>Desk & workstation cleaning</li>
+                        <li>Reception & common areas</li>
+                        <li>Washroom maintenance</li>
+                        <li>After-hours service available</li>
+                    </ul>
+                    <a href="https://helpfulhands.uk.com/office/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                        class="service-link">Office Cleaning Hove →</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-image professional-services">
+                        <img src="professional-services.png"
+                            alt="Professional Cleaning Services Brighton - Trusted cleaners by Helpful Hands"
+                            loading="lazy">
+                    </div>
+                    <h3><a href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Professional
+                            Cleaning Services</a></h3>
+                    <p>From end-of-tenancy deep cleans to one-off spring cleaning, <a
+                            href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Cleaners
+                            Brighton</a> trust for all needs.</p>
+                    <ul class="service-features">
+                        <li>End of tenancy cleaning</li>
+                        <li>Spring cleaning</li>
+                        <li>Post-construction cleanup</li>
+                        <li>Move-in/move-out cleaning</li>
+                        <li>Customized cleaning packages</li>
+                    </ul>
+                    <a href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                        class="service-link">Cleaners Brighton →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Why Choose <span>Helpful Hands?</span></h2>
+            <div class="about-grid">
+                <div class="about-content fade-in">
+                    <p><strong>Established in 2004</strong>, <a
+                            href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Helpful
+                            Hands</a> has been the trusted name for <a
+                            href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Professional
+                            Cleaning Services</a> in Hove and Brighton for over two decades.</p>
+                    <p>We understand that your home and workplace are important to you. That's why our team of
+                        dedicated, vetted professionals delivers consistent, high-quality <a
+                            href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Domestic
+                            Cleaning Hove</a> and <a
+                            href="https://helpfulhands.uk.com/office/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Office
+                            Cleaning Hove</a> that exceeds expectations every time.</p>
+                    <p>As local <a href="https://www.google.com/maps?cid=4750853928277373565">Cleaners Hove</a>
+                        residents trust, we take pride in building lasting relationships with our clients through
+                        reliability, attention to detail, and exceptional customer service.</p>
+                    <p>Every member of our team undergoes thorough background checks and professional training. Whether
+                        you need <a
+                            href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Domestic
+                            Cleaning Brighton</a> or commercial services, we're fully insured and committed to safe,
+                        effective cleaning methods.</p>
+                </div>
+                <div class="stats-grid fade-in">
+                    <div class="stat-card">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5★</div>
+                        <div class="stat-label">Customer Rating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas -->
+    <section class="areas" id="areas">
+        <div class="container">
+            <h2 class="section-title">Areas We <span>Serve</span></h2>
+            <div class="areas-grid fade-in">
+                <div class="area-card">
+                    <div class="area-icon">📍</div>
+                    <h3>Hove</h3>
+                    <p>Our home base! We provide comprehensive domestic and office cleaning throughout Hove, including
+                        the seafront area, Hove Park, and surrounding neighborhoods.</p>
+                </div>
+                <div class="area-card">
+                    <div class="area-icon">📍</div>
+                    <h3>Brighton</h3>
+                    <p>From the vibrant Lanes to peaceful Kemptown, we serve all of Brighton with our professional
+                        cleaning services tailored to your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+441273326661">01273 326661</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:info@helpfulhands.uk.com">info@helpfulhands.uk.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>82-84 Lansdowne Pl<br>Hove, East Sussex<br>BN3 1FH, United Kingdom</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 8:00 AM – 6:00 PM<br>Saturday: 9:00 AM – 5:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container fade-in">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.!2d-0.1683!3d50.8275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41e4e17a9a6b96fd!2sHelpful%20Hands!5e0!3m2!1sen!2suk!4v1"
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Helpful Hands Location Map"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4><a href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                            style="color:var(--accent);">Helpful Hands</a></h4>
+                    <p style="opacity:0.8;"><a
+                            href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                            style="color:rgba(255,255,255,0.8);">Professional Cleaning Services</a> in Hove & Brighton
+                        since 2004.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a
+                        href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Domestic
+                        Cleaning Hove</a>
+                    <a
+                        href="https://helpfulhands.uk.com/domestic/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Domestic
+                        Cleaning Brighton</a>
+                    <a href="https://helpfulhands.uk.com/office/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Office
+                        Cleaning Hove</a>
+                    <a href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink">Cleaners
+                        Brighton</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <a href="tel:+441273326661">01273 326661</a>
+                    <a href="mailto:info@helpfulhands.uk.com">info@helpfulhands.uk.com</a>
+                    <a href="https://www.google.com/maps?cid=4750853928277373565">Cleaners Hove - Find Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 <a href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                        style="color:var(--accent);">Helpful Hands</a>. Professional <a
+                        href="https://www.google.com/maps?cid=4750853928277373565" style="color:#fff;">Cleaners Hove</a>
+                    & <a href="https://helpfulhands.uk.com/?utm_source=GoogleBusinessProfile&utm_medium=CloudLink"
+                        style="color:#fff;">Cleaners Brighton</a>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">↑</button>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Helpful Hands",
+        "description": "Professional Cleaners Hove & Brighton - Expert domestic and office cleaning services since 2004.",
+        "url": "https://helpfulhands.uk.com/",
+        "telephone": "+441273326661",
+        "email": "info@helpfulhands.uk.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "82-84 Lansdowne Pl",
+            "addressLocality": "Hove",
+            "addressRegion": "East Sussex",
+            "postalCode": "BN3 1FH",
+            "addressCountry": "GB"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 50.8275,
+            "longitude": -0.1683
+        },
+        "openingHoursSpecification": [
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00"},
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "17:00"}
+        ],
+        "priceRange": "££",
+        "areaServed": ["Hove", "Brighton"],
+        "sameAs": ["https://www.google.com/maps?cid=4750853928277373565"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Domestic Cleaning",
+        "provider": {"@type": "LocalBusiness", "name": "Helpful Hands"},
+        "areaServed": ["Hove", "Brighton"],
+        "description": "Professional domestic cleaning services for homes in Hove and Brighton."
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Office Cleaning",
+        "provider": {"@type": "LocalBusiness", "name": "Helpful Hands"},
+        "areaServed": ["Hove", "Brighton"],
+        "description": "Professional office cleaning services for businesses in Hove and Brighton."
+    }
+    </script>
+
+    <script>
+        function toggleMobileMenu() {
+            document.getElementById('mobileNav').classList.toggle('active');
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', function () {
+            const btn = document.getElementById('backToTop');
+            btn.classList.toggle('visible', window.scrollY > 500);
+        });
+
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(el => observer.observe(el));
+
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobileNav').classList.remove('active');
+            });
+        });
+
+        // Hero Carousel
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const dots = document.querySelectorAll('.carousel-dot');
+        const totalSlides = slides.length;
+
+        function goToSlide(index) {
+            slides[currentSlide].classList.remove('active');
+            dots[currentSlide].classList.remove('active');
+            currentSlide = index;
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            goToSlide((currentSlide + 1) % totalSlides);
+        }
+
+        // Auto-rotate every 4 seconds
+        setInterval(nextSlide, 4000);
+    </script>
+</body>
+
+</html>
